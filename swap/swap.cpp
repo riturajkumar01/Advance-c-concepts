@@ -16,14 +16,14 @@ void swapAlternate( int arr[],int size){
     }
 }
 int main(){
-    int even[100];
-    int odd[100];
+    int even[10]={2,5,6,7,-4,-9,8,-1,9,10};
+    int odd[10]={1,5,3,4,6,7,-3,-5,-2,11};
     
 
     
-    swapAlternate(even,100);
-    printArray(even,100);
+    swapAlternate(even,10);
+    printArray(even,10);
     
-    swapAlternate(odd,100);
-    printArray(odd,100);
+    swapAlternate(odd,10);
+    printArray(odd,10);
 }
